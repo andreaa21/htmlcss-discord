@@ -53,6 +53,7 @@
 .header-top ul{
   display: flex;
   list-style-type: none;
+  font-size: 0.8rem;
 }
 
 .header-top ul li{

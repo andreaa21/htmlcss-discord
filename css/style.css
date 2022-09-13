@@ -24,6 +24,11 @@
   margin: 0 auto;
 }
 
+.button{
+  padding: 5px;
+  border-radius: 20px;
+}
+
 /* /components */
 
 /* HEADER */
@@ -36,6 +41,8 @@
   display: flex;
   padding: 20px;
   justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
 }
 
 .header-top ul{

@@ -266,6 +266,7 @@ footer{
 
 .footer-title{
   width: 30%;
+  padding: 0 40px;
 }
 
 .footer-title h4{
@@ -299,6 +300,7 @@ footer{
   width: 70%;
   display: flex;
   justify-content: space-between;
+  padding: 0 80px;
 }
 
 .footer-list .menu h4{

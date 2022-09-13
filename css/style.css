@@ -260,8 +260,12 @@ footer{
 }
 
 .footer-title .language{
-  padding-top: 20px;
+  padding: 25px 0 5px;
   color: white;
+}
+
+.footer-title .language img{
+  width: 25px;
 }
 
 .footer-title ul{

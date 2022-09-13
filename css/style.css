@@ -81,21 +81,27 @@ body{
   text-align: center;
   padding: 20px 0;
   justify-content: center;
-  align-items: center;
   background-image: url(../img/jumbo.png);
   background-size: cover;
   min-height: 550px;
 }
 
 .header-bottom .box-1{
-  width: 40%;
+  width: 60%;
   color: white;
   margin: 20px 0 100px;
 }
 
-.header-bottom .text{
+.header-bottom .titolo{
   padding: 20px 0;
-  font-size: 0.8rem;
+}
+
+.header-bottom .text{
+  padding: 20px 200px;
+}
+
+.header-bottom .button-box{
+  padding: 20px;
 }
 
 .button i{
@@ -272,10 +278,13 @@ footer{
   display: flex;
   width: 50%;
   justify-content: space-between;
-  color: white;
   list-style: none;
   padding-top: 20px;
   font-size: 1.2rem;
+}
+
+.footer-title ul a{
+  color: white;
 }
 
 .footer-list{

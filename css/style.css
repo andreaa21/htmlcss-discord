@@ -70,7 +70,6 @@
 .header-bottom{
   display: flex;
   text-align: center;
-  /* height: 300px;    da togliere */
   padding: 20px 0;
   justify-content: center;
   align-items: center;
@@ -79,7 +78,7 @@
 }
 
 .header-bottom .box-1{
-  width: 50%;
+  width: 40%;
   color: white;
   margin: 20px 0 100px;
 }
@@ -104,12 +103,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 400px;  /* da togliere */
-  width: 70%;
+  width: 60%;
+}
+
+.section-content .image-1{
+  padding: 10px;
 }
 
 .section-1 .section-text{
-  flex-basis: 40%;
+  width: 40%;
   padding: 10px;
 }
 
@@ -123,7 +125,7 @@
 /* SECTION-2 */
 
 .section-2{
-  background-color: lightgray;
+  background-color: #F6F6F6;
 }
 
 .section-2 .section-content{
@@ -131,12 +133,15 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  height: 400px; /* da togliere */
   width: 70%;
 }
 
+.section-content .image-2{
+  padding: 10px;
+}
+
 .section-2 .section-text{
-  flex-basis: 40%;
+  width: 40%;
   padding: 10px;
 }
 
@@ -153,7 +158,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 400px;  /* da togliere */
   width: 70%;
 }
 

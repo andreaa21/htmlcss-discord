@@ -1,0 +1,204 @@
+/* general */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /general */
+
+/* utility */
+
+.debug{
+  border: 1px solid black;
+  background-color: rgba(255, 0, 0, 0.25);
+}
+
+/* /utility */
+
+/* components */
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* /components */
+
+/* HEADER */
+
+.header-top{
+  background-color: rgb(88, 88, 228);
+}
+
+.header-top-content{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.header-top ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.header-top ul li{
+  text-decoration: none;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+
+.header-top ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.header-bottom{
+  display: flex;
+  text-align: center;
+  height: 300px;    /* da togliere */
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bottom .box-1{
+  width: 50%;
+}
+
+.header-bottom .text{
+  padding: 20px 0;
+}
+
+/* /HEADER */
+
+
+/* MAIN */
+
+/* SECTION-1 */
+
+.section-1 .section-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;  /* da togliere */
+  width: 70%;
+}
+
+.section-1 .section-text{
+  flex-basis: 40%;
+  padding: 10px;
+}
+
+.section-1 .section-text h2{
+  padding: 20px 0;
+}
+
+/* /SECTION-1 */
+
+
+/* SECTION-2 */
+
+.section-2{
+  background-color: lightgray;
+}
+
+.section-2 .section-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 400px; /* da togliere */
+  width: 70%;
+}
+
+.section-2 .section-text{
+  flex-basis: 40%;
+  padding: 10px;
+}
+
+.section-2 .section-text h2{
+  padding: 20px 0;
+}
+
+/* /SECTION-2 */
+
+/* SECTION-3 */
+
+
+.section-3 .section-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;  /* da togliere */
+  width: 70%;
+}
+
+.section-3 .section-text{
+  flex-basis: 40%;
+  padding: 10px;
+}
+
+.section-3 .section-text h2{
+  padding: 20px 0;
+}
+
+/* /SECTION-3 */
+
+/* SECTION-4 */
+
+.section-4{
+  background-color: lightgray;
+}
+
+.section-4 .section-content{
+  text-align: center;
+  width: 70%;
+  padding: 40px;
+}
+
+.section-4 .section-content h2{
+  width: 100%;
+  padding: 10px 0;
+}
+
+.section-4 .section-content p, .image-4, h3{
+  padding: 20px 0;
+}
+/* /SECTION-4 */
+
+
+/* FOOTER */
+footer{
+  background-color: #3b384f;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px;
+}
+
+
+.footer-list ul{
+  list-style-type: none;
+  padding: 5px 0;
+}
+.footer-list ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 1px solid lightblue;
+}
+
+
+
+/* /FOOTER */

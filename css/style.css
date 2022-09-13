@@ -80,6 +80,7 @@
   align-items: center;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  min-height: 550px;
 }
 
 .header-bottom .box-1{
@@ -220,9 +221,16 @@
   padding: 20px 0;
 }
 
-.section-4 .section-content h3{
+.section-4 .section-content .section-4-bottom{
   background-image: url(../img/stars.svg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0 30px;
+}
+
+.section-4 button{
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 /* /SECTION-4 */
 

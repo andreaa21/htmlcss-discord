@@ -20,7 +20,7 @@
 /* components */
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -113,10 +113,12 @@
 .section-1 .section-text{
   width: 40%;
   padding: 10px;
+  font-size: 0.9rem;
 }
 
 .section-1 .section-text h2{
   padding: 20px 0;
+  font-size: 2.5rem;
 }
 
 /* /SECTION-1 */
@@ -143,10 +145,12 @@
 .section-2 .section-text{
   width: 40%;
   padding: 10px;
+  font-size: 0.9rem;
 }
 
 .section-2 .section-text h2{
   padding: 20px 0;
+  font-size: 2.5rem;
 }
 
 /* /SECTION-2 */
@@ -161,13 +165,19 @@
   width: 70%;
 }
 
+.section-content .image-3{
+  padding: 10px;
+}
+
 .section-3 .section-text{
   flex-basis: 40%;
   padding: 10px;
+  font-size: 0.9rem;
 }
 
 .section-3 .section-text h2{
   padding: 20px 0;
+  font-size: 2.5rem;
 }
 
 /* /SECTION-3 */
